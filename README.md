@@ -8,6 +8,8 @@ Editing an existing task can currently only be done directly in the correspondin
 
 You can also get the json data you need from other sources if you can find it and don't want to handle data creation yourself.
 
+![track_and_stack_demo_WIP](https://github.com/FroggyLex/Tasks_S-n-T/assets/128695217/50cb309b-eaad-4d9f-808e-73faa963f3e4)
+
 # Requirements
 
 * npm, Node.js, React.js

@@ -17,9 +17,8 @@ You can also get the json data you need from other sources if you can find it an
 * Clone this repository.
 * Navigate to the project directory.
 * Install the necessary packages.
-* Create a `DATABASE` folder inside the `backend/db` folder. Then create any sub-folder in it : it can be the name of a game you're playing, a fitness goal, any global kind of goal.
-* Run the Flask server (`backend/main.py`).
-* Run the React application (`frontend/`).
+* Run the Flask server (`python3 backend/main.py`).
+* Run the React application (`cd frontend/; npm install; npm run`).
 * Start creating items and name their category. A button will appear for each category you've created if you wish to filter by category. It can be a kind of game quest, a cooking recipe category, a kind of house chores...
 
 # Examples of using the stackable elements

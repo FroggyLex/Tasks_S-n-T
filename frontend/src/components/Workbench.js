@@ -94,7 +94,7 @@ const Workbench = ({ workbenchItems, setWorkbenchItems }) => {
       onDragOver={handleDragOver}
     >
       <button className='toggle-workbench' onClick={handleToggleWorkbench}>
-        {isWorkbenchVisible ? 'Cacher le workbench' : 'Afficher le workbench'}
+        {isWorkbenchVisible ? 'Hide workbench' : 'Show workbench'}
       </button>
       {workbenchItems.map((item) => {
         const Component = componentMapping[getComponentName(item)];

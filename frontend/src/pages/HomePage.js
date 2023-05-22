@@ -20,7 +20,7 @@ const HomePage = () => {
   
   return (
     <div>
-      <h1>Supercatégories</h1>
+      <h1>Games (or whatever)</h1>
       {data.map(item => (
         <div key={item.value}>
           <Link to={`/${item.value}`} className="link-button">{item.value}</Link>
